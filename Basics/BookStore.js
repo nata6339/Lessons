@@ -15,6 +15,7 @@ checkout();
     //Implement
      // 1. find book by id
      //    2. Add to cart
+     // * Use destructuring
 
 }
 
