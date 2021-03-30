@@ -1,4 +1,4 @@
-const cart = [];
+let cart = [];
 const books = [
     {id: 1, name: "Война и мир", price: 59.99},
     {id: 2, name: "Гари Потный и загробный камнеь", price: 99.99},
@@ -12,12 +12,22 @@ checkout();
 //----------------------------------------------------------------
 
  function addToCart(bookId) {
+     let cart = '';
+
+     for (let i = 0; i < books.length; i++) {
+         cart = books[i].id;
+
+
+         console.log(cart);
+     }
+
     //Implement
      // 1. find book by id
-     //    2. Add to cart
+     // 2. Add to cart
      // * Use destructuring
 
 }
+
 
  function checkout(){
     //TODO: print cart total price;
